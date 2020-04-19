@@ -1,0 +1,11 @@
+{
+  "name": "js-lesson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ron Smeral <ron@smeral.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
