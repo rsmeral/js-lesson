@@ -61,10 +61,6 @@ const getValidArgs = () => {
  */
 const main = () => {
   const {service, distance, duration} = getValidArgs();
-  
-  console.log(service);
-  console.log(SERVICES[service]);
-
 
   const price = SERVICES[service](distance, duration);
  
