@@ -28,15 +28,15 @@ describe('Autonapůl trip price calculator', () => {
     });
 
     it('should calculate price for trip of 3 days, 900 km', () => {
-      expect(calculateTripPrice(900, 72 * 60)).to.be.closeTo(4790, 0.001);
+      expect(calculateTripPrice(900, 72 * 60)).to.be.closeTo(4840, 0.001);
     });
 
     it('should calculate price for trip of 3 days 1 min, 150 km', () => {
-      expect(calculateTripPrice(150, 72 * 60 + 1)).to.be.closeTo(1847, 0.001);
+      expect(calculateTripPrice(150, 72 * 60 + 1)).to.be.closeTo(1897, 0.001);
     });
 
     it('should calculate price for trip of 3 days 17 h, 333 km', () => {
-      expect(calculateTripPrice(333, 89 * 60)).to.be.closeTo(2898.7, 0.001);
+      expect(calculateTripPrice(333, 89 * 60)).to.be.closeTo(2948.7, 0.001);
     });
   });
 })
