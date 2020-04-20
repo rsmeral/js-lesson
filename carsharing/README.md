@@ -20,13 +20,13 @@ The code for handling user input and printing the result to the console is alrea
 Run the program like this:
 
 ```sh
-$ carsharing <service> <distance> <duration>
+$ node carsharing <service> <distance> <duration>
 ```
 
 For example, to calculate a trip of 50 km over 2 hours using CAR4WAY:
 
 ```sh
-$ carsharing car4way 50 120
+$ node carsharing car4way 50 120
 ```
 
 The program will print the result to the console:
