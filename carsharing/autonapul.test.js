@@ -38,5 +38,13 @@ describe('Autonapůl trip price calculator', () => {
     it('should calculate price for trip of 3 days 17 h, 333 km', () => {
       expect(calculateTripPrice(333, 89 * 60)).to.be.closeTo(2948.7, 0.001);
     });
+
+    it('should calculate price for trip of 7 days 3 h, 1000 km', () => {
+      expect(calculateTripPrice(1000, 171 * 60)).to.be.closeTo(6606, 0.001);
+    });
+
+    it('should calculate price for trip of 7 days 23 h, 1000 km', () => {
+      expect(calculateTripPrice(1000, 191 * 60)).to.be.closeTo(6830, 0.001);
+    });
   });
 })
